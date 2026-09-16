@@ -6,11 +6,12 @@ What It Does
 We trained and compared 4 regression models on a dataset of 8,248 used car listings scraped from Syarah.com. After cleaning, filtering outliers, and tuning hyperparameters, our best model was Gradient Boosting with an R² of 0.867.
 
 Results
-Model	Test R²	Test MAE (SAR)
-Gradient Boosting	0.867	12,893
-Random Forest	0.799	15,908
-Decision Tree	0.716	19,492
-Linear Regression	0.454	31,541
+Model     	                  Test R²   	Test MAE (SAR)
+Gradient Boosting	            0.867	         12,893
+Random Forest               	0.799	         15,908
+Decision Tree	                0.716	         19,492
+Linear Regression           	0.454         	31,541
+
 Files
 data/raw/ — Original dataset (8,248 rows)
 data/processed/ — Cleaned dataset (5,418 rows)
